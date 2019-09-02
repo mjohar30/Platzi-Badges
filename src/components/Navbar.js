@@ -8,7 +8,7 @@ class Navbar extends Component {
             <div className="Navbar">
             <div className="container-fluid">
                 <a className="Navbar_brand" href="/">
-                    <img className="Navbar_brand-logo" src={logo} alt="Logo"/>
+                    <img className="Navbar_brand-logo" src={logo} alt="Logo Platzi Conf"/>
                     <span className="font-weight-light">Platzi</span>
                     <span className="font-weight-bold">Conf</span>
                 </a>

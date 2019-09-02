@@ -18,7 +18,7 @@ class Badge extends Component {
                    <h3>{this.props.jobTitle}</h3>
                    <div>@{this.props.twitter}</div>
                </div>
-               <div className="badge_footer">#platziconf</div>
+               <div className="badge_footer">#PlatziConf</div>
             </div>
         );
     }

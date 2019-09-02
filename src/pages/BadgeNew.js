@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 import Navbar from '../components/Navbar';
-import header from '../images/badge-header.svg';
-import './styles/BadgeNew.css';
 import Badge from '../components/Badge'
 import BadgeForm from '../components/BadgeForm';
+import header from '../images/badge-header.svg';
+import './styles/BadgeNew.css';
 
 class BadgeNew extends Component {
+    
     render() {
         return (
             <div>
@@ -20,12 +21,11 @@ class BadgeNew extends Component {
                             firstName="Mario" 
                             lastName="González"
                             twitter="JoharGP"
-                            jobTitle="FullStack Javascript"
+                            jobTitle="Frontend Developer"
                             avatar="https://pbs.twimg.com/profile_images/1093776339142930436/-3IgA4Uk_400x400.jpg" />
                         </div>
                         <div className="col-6">
-                            <BadgeForm
-                            />
+                            <BadgeForm/>
                         </div>
                     </div>
                 </div>
