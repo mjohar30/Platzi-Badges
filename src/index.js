@@ -11,6 +11,7 @@ import 'bootstrap/dist/css/bootstrap.css'
 import './global.css'
 
 import BadgeNew from './pages/BadgeNew';
+import Badges from './pages/Badges';
 
 // const element = <h1>Hello, Platzi Badges!</h1>;
 // const element = React.createElement('h1', {}, 'Hola!, soy los children')
@@ -22,4 +23,4 @@ const container = document.getElementById('app');
 // ReactDOM.render(__qué__, __dónde__);
 // ReactDOM.render(element, container);
 
-ReactDOM.render(<BadgeNew/>, container);
+ReactDOM.render(<Badges/>, container);
