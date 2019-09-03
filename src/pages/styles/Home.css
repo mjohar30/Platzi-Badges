@@ -1,0 +1,9 @@
+.hero{
+    background: url('../../images/stars.svg'), #1B1B25;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: calc(100vh - 60px);
+}
