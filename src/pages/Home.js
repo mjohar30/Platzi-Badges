@@ -9,7 +9,7 @@ function Home(){
         <Fragment>
             <div className="hero">
                 <div className="hero__container">
-                    <img src={LogoPlatziConf} alt="Logo de PlatziConf" srcset=""/>
+                    <img src={LogoPlatziConf} alt="Logo de PlatziConf"/>
                     <h1>Print your Badges</h1>
                     <p>The easiest way to manage your conference</p>
                     <Link to="/badges" className="btn btn-primary">
