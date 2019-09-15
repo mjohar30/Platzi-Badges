@@ -17,10 +17,11 @@
     "@fortawesome/free-solid-svg-icons": "^5.10.2",
     "@fortawesome/react-fontawesome": "^0.1.4",
     "bootstrap": "^4.3.1",
+    "md5": "^2.2.1",
     "react": "16.8.3",
     "react-dom": "16.8.3",
     "react-router-dom": "^5.0.1",
-    "react-scripts": "^2.1.8"
+    "react-scripts": "^3.1.1"
   },
   "devDependencies": {
     "faker": "^4.1.0",
