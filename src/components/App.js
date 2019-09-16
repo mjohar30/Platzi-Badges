@@ -11,8 +11,11 @@ import BadgeEdit from '../pages/BadgeEdit';
 import NotFound from "../pages/NotFound";
 
 function App(){
+
+    const basename = process.env.NODE_ENV === 'development' ? '/' : '/projectname'
+
     return (
-        <BrowserRouter>
+        <BrowserRouter basename={basename}>
             <Layout>
                 <Switch>
                     <Route exact path="/" component={Home}/>
